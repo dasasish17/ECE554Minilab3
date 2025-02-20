@@ -1,0 +1,309 @@
+m255
+K4
+z2
+Z0 !s12c _opt
+Z1 !s99 nomlopt
+Z2 !s12c _opt1
+R1
+!s12c _opt2
+R1
+R0
+R1
+R2
+R1
+R2
+R1
+R0
+R1
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z3 dC:/intelFPGA_lite/23.1std
+T_opt
+!s110 1739913007
+VL;;`39KHQOgU7=Z06_:e^2
+04 13 4 work tb_lab1_spart fast 0
+=1-4cd71794e396-67b4f72e-14c-4894
+R1
+Z4 !s12b OEM100
+!s124 OEM10U7 
+Z5 o-quiet -auto_acc_if_foreign -work work +acc
+Z6 tCvgOpt 0
+n@_opt
+Z7 OL;O;2023.3;77
+T_opt1
+!s110 1739856920
+V;1LB:d8C6]23`Iaf9ng9^2
+Z8 04 24 4 work transmit_receive_unit_tb fast 0
+=1-4cd71794e396-67b41c17-23d-61a4
+R1
+R4
+Z9 !s124 OEM10U3 
+R5
+R6
+n@_opt1
+R7
+R3
+T_opt2
+!s110 1739856886
+VUN[[JOcCGfEUJBa@zaSdU0
+R8
+=1-4cd71794e396-67b41bf6-29-7bc
+R1
+R4
+R9
+o-quiet -auto_acc_if_foreign -work work
+R6
+n@_opt2
+R7
+R3
+vbaud_rate_generator
+2I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/baud_generator.sv
+Z10 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1739912457
+!i10b 1
+!s100 @ROGzd[Z@eg34NIMP92]F1
+I3d]1_OWJCa=V`c0T>@<3^0
+S1
+Z11 dI:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART
+w1739845254
+8I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/baud_generator.sv
+FI:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/baud_generator.sv
+!i122 31
+L0 1 47
+Z12 VDg1SIo80bB@j0V0VzS_@n1
+Z13 OL;L;2023.3;77
+r1
+!s85 0
+31
+!s108 1739912457.000000
+!s107 I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/baud_generator.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/baud_generator.sv|
+!i113 0
+Z14 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vdriver
+2I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/driver.v
+!s110 1739912995
+!i10b 1
+!s100 U32J`Dl4^Jj7bCl3;O]dl3
+ILEC3o?l^IX5`=1g`5>7jL1
+R11
+w1739912987
+8I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/driver.v
+FI:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/driver.v
+!i122 39
+L0 4 139
+R12
+R13
+r1
+!s85 0
+31
+!s108 1739912995.000000
+!s107 I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/driver.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/driver.v|
+!i113 0
+Z15 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vlab1_spart
+2I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/lab1_spart.v
+!s110 1739912458
+!i10b 1
+!s100 HhT4S75nH[fLLYN4goE4C0
+IHizEeVF@=5b`gA1nHDMcQ1
+R11
+w1739852305
+8I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/lab1_spart.v
+FI:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/lab1_spart.v
+!i122 33
+L0 6 133
+R12
+R13
+r1
+!s85 0
+31
+Z16 !s108 1739912458.000000
+!s107 I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/lab1_spart.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/lab1_spart.v|
+!i113 0
+R15
+R6
+vreceive_unit
+Z17 2I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/spart_receiver.sv
+R10
+!s110 1739854224
+!i10b 1
+!s100 SP^SX_Ao`LdP^CON4[Z`g0
+I0gO@49iTD1J^dViTQ7`4S0
+S1
+R11
+w1739847986
+Z18 8I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/spart_receiver.sv
+Z19 FI:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/spart_receiver.sv
+!i122 9
+Z20 L0 1 88
+R12
+R13
+r1
+!s85 0
+31
+!s108 1739854224.000000
+Z21 !s107 I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/spart_receiver.sv|
+Z22 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/spart_receiver.sv|
+!i113 0
+R14
+R6
+vspart
+2I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/spart.sv
+R10
+Z23 !s110 1739912459
+!i10b 1
+!s100 Win4L8`HOClQ9<dNe5mOR3
+IReQagFGIVXk3jk?T5>6TC0
+S1
+R11
+w1739854551
+8I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/spart.sv
+FI:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/spart.sv
+!i122 34
+L0 20 69
+R12
+R13
+r1
+!s85 0
+31
+R16
+!s107 I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/spart.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/spart.sv|
+!i113 0
+R14
+R6
+vspart_receiver
+R17
+R10
+R23
+!i10b 1
+!s100 MoM]=W9LbVERgC6gf^]lU3
+I[HBke@l:2[=;i6Nlz[3^A3
+S1
+R11
+w1739854321
+R18
+R19
+!i122 35
+R20
+R12
+R13
+r1
+!s85 0
+31
+Z24 !s108 1739912459.000000
+R21
+R22
+!i113 0
+R14
+R6
+vspart_transmitter
+Z25 2I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/spart_transmitter.sv
+R10
+!s110 1739912460
+!i10b 1
+!s100 HaO^EFCc2DO?gLzT3PbQM1
+I=YWjR48_R`DL]W5o;KXoQ1
+S1
+R11
+w1739854331
+Z26 8I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/spart_transmitter.sv
+Z27 FI:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/spart_transmitter.sv
+!i122 36
+Z28 L0 1 82
+R12
+R13
+r1
+!s85 0
+31
+R24
+Z29 !s107 I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/spart_transmitter.sv|
+Z30 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/spart_transmitter.sv|
+!i113 0
+R14
+R6
+vtb_lab1_spart
+2I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/tb1_lab1_spart.sv
+R10
+!s110 1739912621
+!i10b 1
+!s100 hZYT48ZADzo;BRZeBNWY?0
+I[HdP4c9]15Rz_?izlH]]c0
+S1
+R11
+w1739912607
+8I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/tb1_lab1_spart.sv
+FI:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/tb1_lab1_spart.sv
+!i122 37
+L0 2 130
+R12
+R13
+r1
+!s85 0
+31
+!s108 1739912621.000000
+!s107 I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/tb1_lab1_spart.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/tb1_lab1_spart.sv|
+!i113 0
+R14
+R6
+vtransmit_receive_unit_tb
+2I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/tb_lab1_spart.sv
+R10
+!s110 1739856865
+!i10b 1
+!s100 H`V43o9DeFW6joi[9aUe=0
+I]O2V^D=]Z9d_9fjOo5Pk_3
+S1
+R11
+w1739856844
+8I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/tb_lab1_spart.sv
+FI:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/tb_lab1_spart.sv
+!i122 30
+L0 1 100
+R12
+R13
+r1
+!s85 0
+31
+!s108 1739856864.000000
+!s107 I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/tb_lab1_spart.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/tb_lab1_spart.sv|
+!i113 0
+R14
+R6
+vtransmit_unit
+R25
+R10
+!s110 1739854225
+!i10b 1
+!s100 5:UNA:U<GRzUDPRTXJia`3
+IHRN`WS3ZFebO_1YboYzf?3
+S1
+R11
+w1739847967
+R26
+R27
+!i122 10
+R28
+R12
+R13
+r1
+!s85 0
+31
+!s108 1739854225.000000
+R29
+R30
+!i113 0
+R14
+R6

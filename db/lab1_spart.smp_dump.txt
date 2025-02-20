@@ -1,0 +1,6 @@
+
+State Machine - |lab1_spart|driver:driver0|state
+Name state.IDLE state.DONE state.TRANS 
+state.IDLE 0 0 0 
+state.TRANS 1 0 1 
+state.DONE 1 1 0 

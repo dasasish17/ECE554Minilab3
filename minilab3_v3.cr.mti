@@ -1,0 +1,15 @@
+I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/spart_receiver.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/spart_receiver.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module spart_receiver
+
+Top level modules:
+	spart_receiver
+
+} {} {}} I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/spart_transmitter.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE554/Minilab3/Lab1-SPART/Lab1-SPART/spart_transmitter.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module spart_transmitter
+
+Top level modules:
+	spart_transmitter
+
+} {} {}}
